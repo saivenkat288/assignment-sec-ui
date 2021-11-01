@@ -14,7 +14,7 @@ import Container from "@material-ui/core/Container";
 import { navigate } from "gatsby";
 import "../styles/global.css";
 import teal from "@material-ui/core/colors/teal";
-import { signIn } from "./api";
+import { signIn } from "../api";
 import { WorkspaceContext } from "../store/context";
 const useStyles = makeStyles((theme) => ({
   paper: {
